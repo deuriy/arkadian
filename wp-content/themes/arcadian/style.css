@@ -1,0 +1,27 @@
+/*
+Theme Name: Arcadian
+Theme URI: http://arcadian.local
+Description: Тема для сайта Arcadian на Wordpress
+Author: Юрий Демченко
+Version: 1.0
+*/
+
+/* Custom styles */
+@media screen and (max-width: 600px) {
+	#wpadminbar {
+		position: fixed;
+	}
+}
+
+.Checkbox span.wpcf7-list-item {
+	margin: 0;
+}
+
+.ContactForm_btnWrapper {
+	position: relative;
+}
+.ContactForm_btnWrapper .ajax-loader {
+	position: absolute;
+	right: 0;
+	bottom: -16px;
+}
